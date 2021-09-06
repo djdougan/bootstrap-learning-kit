@@ -178,15 +178,15 @@
               </div>
               <div class="code-live">
                 <div class="container">
-                  <div>
-                    <div>.col</div>
-                    <div>.col-7</div>
-                    <div>.col</div>
+                  <div class="row">
+                    <div class="col">.col</div>
+                    <div class="col-7">.col-7</div>
+                    <div class="col">.col</div>
                   </div>
-                  <div>
-                    <div>.col-3</div>
-                    <div>.col</div>
-                    <div>.col</div>
+                  <div class="row">
+                    <div class="col-3">.col-3</div>
+                    <div class="col">.col</div>
+                    <div class="col">.col</div>
                   </div>
                 </div>
               </div>
@@ -199,15 +199,15 @@
               </div>
               <div class="code-live">
                 <div class="container">
-                  <div>
-                    <div>.col</div>
-                    <div>.col-auto</div>
-                    <div>.col</div>
+                  <div class="row">
+                    <div class="col">.col</div>
+                    <div class="col-auto">.col-auto</div>
+                    <div class="col">.col</div>
                   </div>
-                  <div>
-                    <div>.col</div>
-                    <div>.col-auto</div>
-                    <div>.col-2</div>
+                  <div class="row">
+                    <div class="col">.col</div>
+                    <div class="col-auto">.col-auto</div>
+                    <div class="col-2">.col-2</div>
                   </div>
                 </div>
               </div>
@@ -221,16 +221,16 @@
                   <p>Same grid across all devices: use .col and .col-*</p>
                 </div>
                 <div class="container">
-                  <div>
-                    <div>.col</div>
-                    <div>.col</div>
-                    <div>.col</div>
-                    <div>.col</div>
+                  <div class="row">
+                    <div class="col">.col</div>
+                    <div class="col">.col</div>
+                    <div class="col">.col</div>
+                    <div class="col">.col</div>
                   </div>
-                  <div>
-                    <div>.col-6</div>
-                    <div>.col-3</div>
-                    <div>.col-3</div>
+                  <div class="row">
+                    <div class="col-6">.col-6</div>
+                    <div class="col-3">.col-3</div>
+                    <div class="col-3">.col-3</div>
                   </div>
                 </div>
                 <div class="container">
@@ -238,16 +238,16 @@
                   <p>Advanced grid changing layout across different device sizes: use device prefixes</p>
                 </div>
                 <div class="container">
-                  <div>
-                    <div>.col-12 .col-md-6 .col-lg-3</div>
-                    <div>.col-12 .col-md-6 .col-lg-3</div>
-                    <div>.col-6 .col-lg-3</div>
-                    <div>.col-6 .col-lg-3</div>
+                  <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">.col-12 .col-md-6 .col-lg-3</div>
+                    <div class="col-12 col-md-6 col-lg-3">.col-12 .col-md-6 .col-lg-3</div>
+                    <div class="col-6 col-lg-3">.col-6 .col-lg-3</div>
+                    <div class="col-6 col-lg-3">.col-6 .col-lg-3</div>
                   </div>
-                  <div>
-                    <div>.col-6 .col-sm-4</div>
-                    <div>.col-6 .col-sm-4</div>
-                    <div>.col-6 .col-sm-4</div>
+                  <div class="row">
+                    <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+                    <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+                    <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
                   </div>
                 </div>
               </div>
@@ -260,48 +260,51 @@
               <div class="code-live">
                 <h4 class="h5 text-muted mt-3 container">Auto</h4>
                 <div class="container">
-                  <div>
-                    <div>Column</div>
-                    <div>Column</div>
-                    <div>Column</div>
-                    <div>Column</div>
+                  <div class="row row-cols-auto">
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
                   </div>
                 </div>
                 <h4 class="h5 text-muted mt-3 container">2</h4>
                 <div class="container">
-                  <div>
-                    <div>Column</div>
-                    <div>Column</div>
-                    <div>Column</div>
-                    <div>Column</div>
+                  <div class="row row-cols-2">
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
                   </div>
                 </div>
                 <h4 class="h5 text-muted mt-3 container">3</h4>
                 <div class="container">
-                  <div>
-                    <div>Column</div>
-                    <div>Column</div>
-                    <div>Column</div>
-                    <div>Column</div>
+                  <div class="row row-cols-3">
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
                   </div>
                 </div>
                 <h4 class="h5 text-muted mt-3 container">4</h4>
                 <div class="container">
-                  <div>
-                    <div>Column</div>
-                    <div>Column</div>
-                    <div>Column</div>
-                    <div>Column</div>
+                  <div class="row row-cols-4">
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
                   </div>
                 </div>
+                
+              <div class="container">
                 <h4 class="h5 text-muted mt-3 container">Responsive</h4>
                 <p>Advanced grid changing layout across different device sizes: use device prefixes</p>
+                </div>
                 <div class="container">
-                  <div>
-                    <div>Column</div>
-                    <div>Column</div>
-                    <div>Column</div>
-                    <div>Column</div>
+                  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-col-xxl-4">
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
+                    <div class="col">Column</div>
                   </div>
                 </div>
               </div>
@@ -311,15 +314,15 @@
               <h3 class="component-variation text-muted container">Nesting</h3>
               <div class="code-live">
                 <div class="container">
-                  <div>
-                    <div>
-                      <div>
-                        <div>.col-md-12 .col-lg-6</div>
-                        <div>.col-md-12 .col-lg-3</div>
-                        <div>.col-md-12 .col-lg-3</div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-6">.col-md-12 .col-lg-6</div>
+                        <div class="col-md-12 col-lg-3">.col-md-12 .col-lg-3</div>
+                        <div class="col-md-12 col-lg-3">.col-md-12 .col-lg-3</div>
                       </div>
                     </div>
-                    <div>.col-md-4</div>
+                    <div class="col-md-4">.col-md-4</div>
                   </div>
                 </div>
               </div>
